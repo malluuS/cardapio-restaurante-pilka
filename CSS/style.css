@@ -127,7 +127,7 @@ h1 {
     padding: 0;
     font-weight: 600;
     margin-top: 9px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -196,13 +196,14 @@ h2 {
 
 p {
     text-align: center;
+    font-size: 13px;;
 }
 
 .prato {
     background-color: var(--cor-fundo-card);
     border-radius: 15px;
     margin-bottom: 10px;
-    padding: 20px 20px 20px 25px;
+    padding: 20px 15px 20px 15px;
     min-height: 70px;
 }
 
