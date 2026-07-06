@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cardápio Restaurante Pilka</title>
+
+    <!-- Importação da fonte Poppins utilizada em todo o site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Biblioteca de ícones utilizada no site -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Arquivo principal de estilos da aplicação -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Ícone exibido na aba do navegador -->
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Cabeçalho contendo o nome do restaurante, status de funcionamento e data atual -->
+        <header>
+            <div id="header-top">
+                <div id="header-texto">
+                    <p id="subtitulo-restaurante">RESTAURANTE</p>
+                    <h1>Pilka</h1>
+                </div>
+                <span id="status"></span>
+            </div>
+
+            <div id="data-hoje">
+                <span id="emoji-calendario">📅</span>
+                <div id="texto-data">
+                    <p>cardápio de hoje</p>
+                    <strong id="data-completa"></strong>
+                </div>
+            </div>
+
+        </header>
+
+
+        <main>
+            <!-- Este aviso permanece oculto por padrão. Ele será exibido apenas quando o dia da semana for domingo -->
+            <div id="aviso-domingo" class="oculto">
+                <h2>🍽️ Hoje estamos fechados</h2>
+                <p>Não abrimos aos domingos.</p>
+                <p>Esperamos você amanhã a partir das <strong>11h</strong>!</p>
+            </div>
+
+            <!-- Cardápios organizados individualmente para cada dia da semana -->
+            <section id="cardapio">
+
+                <!-- Segunda-feira -->
+                <div id="segunda" class="cardapio-dia">
+                    <h2>PRATOS PRINCIPAIS</h2>
+                    <div class="prato">
+                        <strong>Costelinha de Porco</strong>
+                        <p class="descricao">Acompanha arroz, feijão, guizado de abóbora, moranga, chuchu e angu</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Espaguete à Bolonhesa com Carne Moída</strong>
+                        <p class="descricao">Acompanha cebolinha e salada</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <h2>OPÇÕES DE CARNES</h2>
+
+                    <div class="prato">
+                        <strong>Filé de Tilápia</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 22,00 | Grande: R$ 24,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Bife de Boi</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Filé de Frango (Grelhado ou Empanado)</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Carne Moída</strong>
+                        <p class="descricao">Acompanha arroz, feijão, guizado, abóbora, chuchu e angu</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+                </div>
+
+                <!-- Terça-feira -->
+                <div id="terca" class="cardapio-dia">
+                    <h2>PRATOS PRINCIPAIS</h2>
+                    <div class="prato">
+                        <strong>Galinhada</strong>
+                        <p class="descricao">Acompanha tutu de feijão, ovo cozido e cebolinha</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Carne Cozida com Batatas</strong>
+                        <p class="descricao">Acompanha arroz, feijão e couve</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <h2>OPÇÕES DE CARNES</h2>
+                    <div class="prato">
+                        <strong>Bife de Boi</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Filé de Frango (Grelhado ou Empanado)</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Filé de Tilápia</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 22,00 | Grande: R$ 24,00</p>
+                    </div>
+                </div>
+
+                <!-- Quarta-feira -->
+                <div id="quarta" class="cardapio-dia">
+                    <h2>PRATOS PRINCIPAIS</h2>
+                    <div class="prato">
+                        <strong>Tropeiro Mineirão</strong>
+                        <p class="descricao">Acompanha arroz branco, torresmo, couve, ovo frito e bife de porco</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Tropeiro Mineirão (Bife de Boi)</strong>
+                        <p class="descricao">Acompanha arroz branco, torresmo, couve, ovo frito e bife de boi</p>
+                        <p class="precos">Pequeno: R$ 22,00 | Grande: R$ 24,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Tropeiro</strong>
+                        <p class="descricao">Somente o tropeiro, sem acompanhamentos.</p>
+                        <p class="precos">Pequeno: R$ 25,00 | Grande: R$ 30,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Strogonoff de Frango</strong>
+                        <p class="descricao">Acompanha arroz branco e batata frita</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <h2>OPÇÕES DE CARNES</h2>
+                    <div class="prato">
+                        <strong>Porco ou Filé de Frango (Grelhado ou Empanado)</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Filé de Tilápia</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 22,00 | Grande: R$ 24,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Bife de Boi</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+                </div>
+
+                <!-- Quinta-feira -->
+                <div id="quinta" class="cardapio-dia">
+                    <h2>PRATOS PRINCIPAIS</h2>
+                    <div class="prato">
+                        <strong>Frango com Quiabo</strong>
+                        <p class="descricao">Acompanha arroz, feijão e angu</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Espaguete à Bolonhesa com Carne Moída</strong>
+                        <p class="descricao">Acompanha cebolinha e salada</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Filé de Tilápia</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 22,00 | Grande: R$ 24,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Carne Moída</strong>
+                        <p class="descricao">Acompanha arroz, feijão, batata frita e angu</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <h2>OPÇÕES DE CARNES</h2>
+                    <div class="prato">
+                        <strong>Bife de Boi</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Filé de Frango (Grelhado ou Empanado)</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+                </div>
+
+                <!-- Sexta-feira -->
+                <div id="sexta" class="cardapio-dia">
+                    <h2>PRATOS PRINCIPAIS</h2>
+                    <div class="prato">
+                        <strong>Feijoada Completa</strong>
+                        <p class="descricao">Acompanha arroz, farofa, couve, vinagrete e laranja</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Feijoada</strong>
+                        <p class="descricao">Somente a feijoada, sem acompanhamentos.</p>
+                        <p class="precos">Pequeno: R$ 30,00 | Grande: R$ 40,00</p>
+                    </div>
+
+                    <h2>OPÇÕES DE CARNES</h2>
+                    <div class="prato">
+                        <strong>Filé de Frango (Grelhado ou Empanado)</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 18,00 | Grande: R$ 20,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Filé de Tilápia</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 22,00 | Grande: R$ 24,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Bife de Boi</strong>
+                        <p class="descricao">Acompanha arroz, feijão e fritas</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+                </div>
+
+                <!-- Sábado -->
+                <div id="sabado" class="cardapio-dia">
+                    <h2>PRATOS PRINCIPAIS</h2>
+                    <div class="prato">
+                        <strong>Feijoada Completa</strong>
+                        <p class="descricao">Acompanha arroz, farofa, couve, vinagrete e laranja</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Feijoada </strong>
+                        <p class="descricao">Somente a feijoada, sem acompanhamentos.</p>
+                        <p class="precos">Pequeno: R$ 30,00 | Grande: R$ 40,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Tropeiro Mineirão</strong>
+                        <p class="descricao">Acompanha arroz branco, torresmo, couve, ovo frito e bife de porco</p>
+                        <p class="precos">Pequeno: R$ 20,00 | Grande: R$ 22,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Tropeiro Mineirão (Bife de Boi)</strong>
+                        <p class="descricao">Acompanha arroz branco, torresmo, couve, ovo frito e bife de boi</p>
+                        <p class="precos">Pequeno: R$ 22,00 | Grande: R$ 24,00</p>
+                    </div>
+
+                    <div class="prato">
+                        <strong>Tropeiro</strong>
+                        <p class="descricao">Somente o tropeiro, sem acompanhamentos.</p>
+                        <p class="precos">Pequeno: R$ 25,00 | Grande: R$ 30,00</p>
+                    </div>
+                </div>
+
+                <!-- Separador visual entre o cardápio e as opções para realizar pedidos -->
+                <div id="divisor">
+                    <span class="linha"></span>
+                    <div id="frase-pedido">
+                        <i class="fas fa-concierge-bell"></i>
+                        <p>Gostou? Faça seu pedido!</p>
+                    </div>
+                    <span class="linha"></span>
+                </div>
+
+                <!-- Informações gerais válidas para todos os pedidos -->
+                <div id="avisos">
+                    <p>Todos os pratos com salada separada. Na hora do pedido, gentileza solicitá-la.</p>
+                    <p>Não trocamos um ingrediente pelo outro.</p>
+                </div>
+
+                <!-- Botões de acesso aos canais oficiais de pedido -->
+                <div id="botoes-pedido">
+                    <a href="https://www.ifood.com.br" target="_blank" class="ifood">
+                        <p>Peça pelo </p>
+                        <img src="images/logoIfood.png" alt="iFood">
+                    </a>
+                    <a href="https://wa.me/5531986264109?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20um%20pedido."
+                        target="_blank" class="whats"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer>
+            <!-- Contatos e localização do restaurante -->
+            <div id="info-restaurante">
+                <p id="titulo-info">INFORMAÇÕES</p>
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/R.+Irece,+61+-+Novo+Eldorado,+Contagem+-+MG,+32341-620/@-19.9346983,-44.0595388,19z/data=!4m6!3m5!1s0xa6957608c27e17:0x712428586b6e612!8m2!3d-19.9346107!4d-44.0587348!16s%2Fg%2F11hbgr591z?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">
+                            <i class="fas fa-map-marker-alt"></i> Rua Irêce, nº 61, Novo Eldorado - Contagem/MG</a>
+                    </li>
+                    <li>
+                        <a href="tel:+5531986264109" target="_blank">
+                            <i class="fas fa-phone"></i> (31) 98626-4109 | 99336-0525
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5531986264109" target="_blank">
+                            <i class="fab fa-whatsapp"></i> (31) 98626-4109
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/pilka_futsal" target="_blank">
+                            <i class="fab fa-instagram"></i> @pilka_futsal
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1qFBl65PNq4zETIq0VizLi1wuGQbFMbu2/view?usp=sharing" target="_blank"
+                id="btn-cardapio-semana">
+                📋 Ver cardápio dos demais dias da semana
+            </a>
+
+            <!-- Logo oficial utilizada para reforçar a identidade visual do restaurante -->
+            <img src="images/logoPilka.png" alt="Logo do Restaurante Pilka">
+
+            <div id="info-finais">
+                <p> &copy; 2026 Cardápio Restaurante Pilka. Todos os direitos reservados.</p>
+                <p> Desenvolvido por Mallu Siqueira.</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <!-- Controla a exibição do cardápio conforme o dia da semana -->
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
