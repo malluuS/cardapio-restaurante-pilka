@@ -27,3 +27,17 @@ Site desenvolvido para exibir o cardápio diário do restaurante de forma dinâm
 ## 👩‍💻 Desenvolvedora
 
 Mallu Siqueira — estudante de Sistemas de Informação no IFMG Sabará
+
+## 📸 Screenshots
+
+### Cardápio do dia
+![Cardápio aberto](images/screenshot-desktop-aberto.png)
+
+### Versão domingo (restaurante fechado)
+![Domingo](images/screenshot-desktop-domingo.png)
+
+### Versão mobile
+![Mobile](images/screenshot-mobile.png)
+
+### Status fechado no mobile
+![Mobile fechado](images/screenshot-mobile-fechado.png)
