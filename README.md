@@ -30,14 +30,10 @@ Mallu Siqueira — estudante de Sistemas de Informação no IFMG Sabará
 
 ## 📸 Screenshots
 
-### Cardápio do dia
-![Cardápio aberto](images/screenshot-desktop-aberto.png)
+### Desktop
+<img src="images/screenshot-desktop-aberto.png" width="250">
+<img src="images/screenshot-desktop-domingo.png" width="250">
 
-### Versão domingo (restaurante fechado)
-![Domingo](images/screenshot-desktop-domingo.png)
-
-### Versão mobile
-![Mobile](images/screenshot-mobile.png)
-
-### Status fechado no mobile
-![Mobile fechado](images/screenshot-mobile-fechado.png)
+### Mobile
+<img src="images/screenshot-mobile.png" width="150">
+<img src="images/screenshot-mobile-fechado.png" width="150">
