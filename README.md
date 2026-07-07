@@ -31,9 +31,9 @@ Mallu Siqueira — estudante de Sistemas de Informação no IFMG Sabará
 ## 📸 Screenshots
 
 ### Desktop
-<img src="images/screenshot-desktop-aberto.png" width="250">
-<img src="images/screenshot-desktop-domingo.png" width="250">
+<img src="images/screenshot-desktop-aberto.png" width="250"> <img src="images/screenshot-desktop-domingo.png" width="250">
+
 
 ### Mobile
-<img src="images/screenshot-mobile.png" width="150">
-<img src="images/screenshot-mobile-fechado.png" width="150">
+<img src="images/screenshot-mobile.png" width="200"> <img src="images/screenshot-mobile-fechado.png" width="150">
+
