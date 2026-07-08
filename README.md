@@ -2,6 +2,8 @@
 
 Cardápio digital desenvolvido para o Restaurante Pilka, localizado em Contagem/MG.
 
+🔗 **Acesse o site:** [malluus.github.io/cardapio-restaurante-pilka](https://malluus.github.io/cardapio-restaurante-pilka)
+
 ## 📋 Sobre o Projeto
 
 Site desenvolvido para exibir o cardápio diário do restaurante de forma dinâmica e responsiva. O cardápio é atualizado automaticamente de acordo com o dia da semana, facilitando o acesso dos clientes às opções disponíveis.
